@@ -9,6 +9,13 @@
 //         I still need to test it throughly when compiled with gcc.)
 //
 // v1.03 - 5/12/13 - Initial public release
+//
+// --- Modifications by conhlee <hello@conhlee.nl> ---
+// v1.04a - 3/8/25 - Fixed GCC compiler warnings:
+//              - Disabled MSVC pragma on non-MSVC compilers
+//              - Fixed unused argument warnings ( (void)unused_argument; )
+//              - Removed usage of labs on unsigned int values
+
 #include "rg_etc1.h"
 
 #include <stdlib.h>
